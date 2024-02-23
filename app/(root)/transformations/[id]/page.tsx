@@ -1,7 +1,7 @@
 import React from "react";
 
-const TransformationsPage = ({ params }: { id: string }) => {
+const ImageDetails = async ({ params: { id } }: SearchParamProps) => {
   return <div>TransformationsPage</div>;
 };
 
-export default TransformationsPage;
+export default ImageDetails;
